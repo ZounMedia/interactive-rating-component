@@ -27,6 +27,8 @@ An HTML CSS and Javascript interactive rating component.
 - Live Site URL: https://interactive-rating-component-lac-one.vercel.app/
 - GitHub Repo: https://github.com/ZounMedia/interactive-rating-component
 
+## My process
+
 ### Built with
 
 - Semantic HTML5 markup

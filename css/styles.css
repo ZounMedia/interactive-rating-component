@@ -21,6 +21,7 @@
 
 body {
   font-size: 14px;
+  font-family: "Overpass", sans-serif;
 }
 
 .container {
@@ -43,4 +44,103 @@ body {
   background: var(--black-gradient);
   border-radius: 30px;
   padding: 32px;
+}
+
+.rating-card .heading,
+.rating-card .description,
+.rating-card .rating {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-card .heading {
+  height: 20%;
+}
+
+.rating-card .heading .icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--Dark-Blue);
+  border-radius: 50%;
+}
+
+.rating-card .heading .icon img {
+  width: 16px;
+  height: 16px;
+}
+
+.rating-card .description {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3% 0;
+}
+
+.rating-card .description h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--Pure-WHite);
+}
+
+.rating-card .description p {
+  color: var(--Light_Gray);
+  line-height: 22px;
+  width: 90%;
+}
+
+.rating-card .rating {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.rating-card .rating .options {
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-card .rating .options .option {
+  width: 51px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Dark-Blue);
+  color: var(--Medium-Gray);
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50%;
+  transition: all 0.35s ease-in-out;
+}
+
+.rating-card .rating .options .option:hover {
+  cursor: pointer;
+  background-color: var(--Orange);
+  color: var(--Pure-WHite);
+}
+
+.rating-card .rating button {
+  height: 45px;
+  border-radius: 22.5px;
+  border: none;
+  background-color: var(--Orange);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--Pure-WHite);
+  letter-spacing: 2px;
+  transition: all 0.35s ease-in-out;
+}
+
+.rating-card .rating button:hover {
+  cursor: pointer;
+  background-color: var(--Pure-WHite);
+  color: var(--Orange);
 }

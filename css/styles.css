@@ -127,6 +127,11 @@ body {
   transition: all 0.35s ease-in-out;
 }
 
+.rating-card .rating .options .option.active {
+  background-color: var(--Orange);
+  color: var(--Pure-WHite);
+}
+
 .rating-card .rating .options .option:hover {
   cursor: pointer;
   background-color: var(--Orange);

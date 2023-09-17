@@ -1,9 +1,10 @@
 // set state of option selected; default to 1
 let optionSelected = "1";
 
-// select and add click event listeners to each option
+// find all options
 const options = document.querySelectorAll(".option");
 
+//loop over actions and add an click event listener
 options.forEach((option) =>
   option.addEventListener("click", () => {
     //find active option and remove active class

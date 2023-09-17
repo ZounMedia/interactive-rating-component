@@ -46,7 +46,7 @@ I used regular CSS since this compent was not that complex, but I think I should
 
 ### Useful resources
 
-- https://fonts.google.com/specimen/Outfit - Google Fonts Outfit url
+- https://fonts.google.com/specimen/Overpass - Google Fonts Overpass url
 
 ## Author
 

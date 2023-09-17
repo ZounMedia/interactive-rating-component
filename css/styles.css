@@ -34,7 +34,9 @@ body {
   padding: 0 24px;
 }
 
+/* default rating card styles */
 .rating-card {
+  display: none;
   width: 100%;
   min-width: 327px;
   max-width: 412px;
@@ -44,6 +46,10 @@ body {
   background: var(--black-gradient);
   border-radius: 30px;
   padding: 32px;
+}
+
+.rating-card.active {
+  display: block;
 }
 
 .rating-card .heading,
@@ -143,4 +149,80 @@ body {
   cursor: pointer;
   background-color: var(--Pure-WHite);
   color: var(--Orange);
+}
+
+/* thank you card styles */
+.thank-you-card {
+  display: none;
+  width: 100%;
+  min-width: 327px;
+  max-width: 412px;
+  height: 100%;
+  min-height: 360px;
+  max-height: 416px;
+  background: var(--black-gradient);
+  border-radius: 30px;
+  padding: 55px 42px;
+}
+
+.thank-you-card.active {
+  display: block;
+}
+
+.thank-you-card .heading {
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.thank-you-card .heading .illustration {
+  height: 70%;
+}
+
+.thank-you-card .heading .selection-container {
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.thank-you-card .heading .selection-container .selection {
+  width: 193px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Dark-Blue);
+  font-size: 15px;
+  border-radius: 22.5px;
+  color: var(--Orange);
+}
+
+.thank-you-card .heading .selection-container .selection span {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.thank-you-card .thank-you {
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.thank-you-card .thank-you h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--Pure-WHite);
+}
+
+.thank-you-card .thank-you p {
+  margin-top: 7px;
+  padding: 0 2%;
+  font: 15px;
+  line-height: 24px;
+  color: var(--Light_Gray);
+  text-align: center;
 }
